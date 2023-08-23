@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+#typingText{
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+    color: wheat;
+}

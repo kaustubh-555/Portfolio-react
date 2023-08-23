@@ -1,0 +1,8 @@
+#worksContainer{
+    padding: 50px;
+}
+#works{
+    display: flex;
+    justify-content: space-evenly;
+
+}

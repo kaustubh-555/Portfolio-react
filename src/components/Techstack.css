@@ -1,0 +1,12 @@
+#floatingContainer{
+    display: grid;
+    padding: 20px;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-gap: 40px;
+    transition: all 2s;
+}
+#techstackContainer{
+    padding: 100px;
+}
