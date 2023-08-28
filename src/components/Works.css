@@ -1,8 +1,12 @@
 #worksContainer{
+    /* width: 100%; */
     padding: 50px;
+    /* height: 90vh; */
+    box-sizing: border-box;
+    margin-bottom: 200px;
 }
 #works{
     display: flex;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
 }

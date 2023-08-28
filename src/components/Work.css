@@ -2,9 +2,10 @@
     width: 30%;
 }
 #eachWork{
-    background: linear-gradient(135deg, #790252, #2a0845);
+    /* background: linear-gradient(135deg, #790252, #2a0845); */
+    background-color: var(--background);
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-sizing: border-box;
     transition: background-color 0.3s;
 }
@@ -28,6 +29,7 @@
     position: absolute;
     transition: background-color 1.0s;
     top: 0px;
+    left: 0px;
     background-color: rgba(0,0,0,0.9);
     cursor: pointer;
     display: flex;

@@ -11,7 +11,7 @@ import react from "../images/react.svg"
 
     return (
         <div id="techstackContainer">
-             <h1>
+             <h1 style={{color : "wheat"}}>
                 My Tech Stack
             </h1>
             <div id="floatingContainer">

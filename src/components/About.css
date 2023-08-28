@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Josefin+Slab:wght@100&family=Roboto+Mono&display=swap');
 .aboutContainer{
-    width: 80%;
+    width: 75%;
     margin: auto;
+    /* height: max-content; */
     padding: 30px;
+    /* background-color: var(--lightblue); */
     background-color: var(--lightbackground);
+    color: var(--darkest);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: 'Cutive Mono', monospace;;
+}
+#aboutContent{
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+#meDesc{
+    width: 60%;
+}
+#boyImg{
+    width: 30%;
 }

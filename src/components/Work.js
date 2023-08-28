@@ -18,9 +18,7 @@ const Work=(props)=>{
         <div id="eachWork" onMouseEnter={hoverHandeler} onMouseLeave={unHoverHandeler} onClick={clickHandeler}>
             <div className="imageContainer">
                 <img src={image} id="image"></img>
-
                 {(hovering)?(<div className="hoverDiv"><p>{data.description}</p></div>):(<div></div>)}
-                
             </div>
         </div>
         <div className="workName">{data.name}</div>

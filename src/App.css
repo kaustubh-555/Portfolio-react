@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-body{
-  scroll-behavior:smooth;
-  transition: all 0.2s;
-}
 #navBar{
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 30px;
   background-color: var(--background);
+  box-sizing: border-box;
   align-items: center;
 }
 #navBar a{
@@ -30,7 +29,9 @@ body{
 }
 #modeBtn{
   font-size: 1.25rem;
-  color: var(--fontColor);
+  /* color: var(--fontColor); */
+  color: white;
+  /* display: fixed; */
 }
 #a{
   background-color: var(--background);
@@ -41,4 +42,5 @@ body{
   padding:50px;
   justify-content: space-between;
   align-items: center;
+  height: 95vh;
 }
