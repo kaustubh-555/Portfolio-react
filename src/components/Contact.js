@@ -16,7 +16,6 @@ const Contact=()=>{
                 <a href='#aboutnavi'>About</a>
                 <a href='#techstackContainer'>Skills</a>
                 <a href='#worksContainer'>Projects</a>
-                <a href='#'>Contact</a>
             </div>
             <div id="social">
                 <ul id="socialBtns">

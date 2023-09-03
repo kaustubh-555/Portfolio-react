@@ -10,7 +10,10 @@
     box-sizing: border-box;
     color: black;
     text-decoration: none;
-    color: var(--darkest);
+    /* color: var(--darkest); */
+    color: white;
+    background-color: var(--background);
+
 }
 #footer div{
     width: 30%;
@@ -22,12 +25,15 @@
 #footer #links{
     display: flex;
     flex-direction: column;
+    width: fit-content;
 }
 #footer #links a{
-    color: var(--darkest);
+    /* color: var(--darkest); */
+    color: white;
+    width: fit-content;
 }
 #footer #links a:hover{
-    color: white;
+    color: black;
 }
 #socialBtns{
     display: flex;
@@ -65,5 +71,4 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    
 }

@@ -10,7 +10,7 @@ const Works=()=>{
     let imgarray=[blog,news,hotel,tictactoe,Shooting];
     return (
         <div id="worksContainer">
-            <h1 style={{color: "wheat"}}>My Projects</h1>
+            <h1>My Projects</h1>
             <div id="works">
                 {
                     expo.data.map((element)=>{

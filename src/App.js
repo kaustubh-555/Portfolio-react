@@ -1,12 +1,13 @@
 import './App.css';
 import {FiSun} from "react-icons/fi"
-import me from "./DSC_2075.jpg"
+import ass from "./images/asset 1.svg"
 import Typer from './components/Typer';
 import { useState } from 'react';
 import Techstack from './components/Techstack';
 import Works from './components/Works';
 import About from './components/About';
-import Contact from "./components/Contact"
+import {BsLinkedin,BsGithub,BsInstagram,BsFillTelephoneOutboundFill} from "react-icons/bs"
+import {SiLeetcode} from 'react-icons/si'
 function App() {
   const[str,setstr]=useState("");
   let index=0;
@@ -33,8 +34,12 @@ function App() {
           <FiSun></FiSun>
         </div>
       <div id='showcaseArea' onFocus={highlighter(0)}>
-        <Typer str={str} setstr={setstr} index={index} i={i}></Typer>
+        <div>
+          <Typer str={str} setstr={setstr} index={index} i={i}></Typer>
+
+        </div>
         <div id='showcase'>
+          <img src={ass}></img>
         </div>
       </div>
       <div id='aboutnavi' onFocus={highlighter(1)}>
@@ -49,10 +54,17 @@ function App() {
 
         </Works>
       </div>
-      <div onFocus={highlighter(4)}>
-        <Contact></Contact>
+      <div id='footer'>
+      <div id="footerLogo">
+                Kaustubh Suroshi
+            </div>
+      <ul id="socialBtns">
+                    <li id="linkdein"><a href="https://www.linkedin.com/in/kaustubh-suroshi-75434723a" target="_blank"><BsLinkedin></BsLinkedin></a></li>
+                    <li id="github"><a href="https://github.com/kaustubh-555" target="_blank"><BsGithub></BsGithub></a></li>
+                    <li id="insta"><a href="#" target="_blank"><BsInstagram></BsInstagram></a></li>
+                    <li id="leetcode"><a href="https://leetcode.com/kaustubh517suroshi/" target="_blank"><SiLeetcode></SiLeetcode></a></li>
+                </ul>
       </div>
-      
       
     </div>
   );
